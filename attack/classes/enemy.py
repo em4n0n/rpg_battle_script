@@ -11,8 +11,11 @@ class Enemy:
     atkl = 60
     atkh = 80
 
-    def getAtk(self):
-        print(self.atkl)
+    def getAtk(self): # self creates instance
+        print(self.atkl) 
+
+enemy1 = Enemy() # instantiates the class to its own obj
+enemy1.getAtk() # calls getAtk
 
 enemy2 = Enemy()
 enemy2.getAtk()
